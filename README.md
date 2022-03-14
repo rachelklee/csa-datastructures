@@ -2,6 +2,12 @@
 
 # Commits: https://github.com/rachelklee/csa-datastructures/commits/main
 
+# Test Prep Plan
+- Complete coding challenges each week
+- Review college board videos
+- Re-do college board MCs and FRQs
+- Do past exam FRQs and MCs
+
 ## Week 0: [Ticket](https://github.com/rachelklee/csa-datastructures/issues/1)
 | Challenge | Link |
 | -- | -- |
