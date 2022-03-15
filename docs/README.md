@@ -1,6 +1,6 @@
 # csa-datastructures
 
-# Commits: https://github.com/rachelklee/csa-datastructures/commits/main
+## Commits: https://github.com/rachelklee/csa-datastructures/commits/main
 
 ## Week 0 Individual
 
