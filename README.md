@@ -1,8 +1,3 @@
----
-title: ReadME
-layout: template
-filename: README.md
---- 
 # csa-datastructures
 
 # Commits: https://github.com/rachelklee/csa-datastructures/commits/main
