@@ -1,5 +1,5 @@
 
-<h1 align="center"> Welcome to Rachel's repository for APCSA Data Structures </h1>
+<h1 align="center"> Welcome to Rachel's Repository for APCSA Data Structures </h1>
 
 <h2 align="center"> <a href="https://rachelklee.github.io/csa-datastructures/">Home</a> | <a href="https://rachelklee.github.io/csa-datastructures/techtalknotes">Tech Talk Notes</a> | <a href="https://rachelklee.github.io/csa-datastructures/testprep">Test Prep Notes</a></h2>
 
