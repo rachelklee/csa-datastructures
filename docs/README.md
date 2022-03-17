@@ -5,6 +5,7 @@
 
 ### [Commits](https://github.com/rachelklee/csa-datastructures/commits/main)
 ### [Profile](https://github.com/rachelklee)
+### [Team Repository](https://github.com/adhithin/lab-kit)
 
 ## Week 0 Individual
 
