@@ -9,11 +9,11 @@
 
 ## Week 0 Individual
 
-[Page](https://rachelklee.github.io/csa-datastructures/week0)
-[Ticket](https://github.com/rachelklee/csa-datastructures/issues/1)
+* [Page](https://rachelklee.github.io/csa-datastructures/week0)
+* [Ticket](https://github.com/rachelklee/csa-datastructures/issues/1)
 
 ## Week 1 Individual
 
-[Page](https://rachelklee.github.io/csa-datastructures/week1)
-[Ticket](https://github.com/rachelklee/csa-datastructures/issues/2)
+* [Page](https://rachelklee.github.io/csa-datastructures/week1)
+* [Ticket](https://github.com/rachelklee/csa-datastructures/issues/2)
 
