@@ -1,3 +1,5 @@
+package TT0;
+
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.EmptyStackException;
@@ -7,7 +9,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 
-//run Main.java to run Menu
+//run TT0.Main.java to run TT0.Menu
 
 public final class Menu {
     //Class needed for invoking method
@@ -22,7 +24,7 @@ public final class Menu {
     //Array representation of banner with each elment being each line of the banner
     private String[] banner = {""};
     
-    //Menu constructor
+    //TT0.Menu constructor
     public Menu(Class inputClass){
         menuClass = inputClass;
         //Create a default menu item to quit
@@ -132,7 +134,7 @@ public final class Menu {
         try {
             //Invoke method invoked from class passed in from the constructor
             menuItemHashtable.get(name).invoke(menuClass);
-        //Empty stack: Menu is empty
+        //Empty stack: TT0.Menu is empty
         //Illegal access: Accessing something it cannot
         //Illegal argument: Argument doesn't belon
         //Invocation Target: Something is wrong with invoking the menu

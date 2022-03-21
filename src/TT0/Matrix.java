@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package TT0;
 
 public class Matrix {
     private final int[][] matrix;

@@ -1,7 +1,9 @@
+package TT0;
+
 public class IntByReference {
     public int value;
 
-    // Hack: create IntByReference, swapToLowHighOrder and toString methods
+    // Hack: create TT0.IntByReference, swapToLowHighOrder and toString methods
     public IntByReference(int n){
         value = n;
     }
