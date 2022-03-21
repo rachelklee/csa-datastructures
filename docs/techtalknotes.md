@@ -34,4 +34,3 @@ Challenge 3:
 - Build a queue: load it up, print it (standard order), push into the stack (reverse order)
      - [Example](https://github.com/nighthawkcoders/nighthawk_csa/blob/master/src/main/java/com/nighthawk/csa/utility/LinkedLists/Stack.java)
 - null --> done with loop
-- 
