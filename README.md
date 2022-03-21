@@ -15,6 +15,6 @@ filename: README.md
 
 | Challenge | Link |
 | -- | -- |
-| Challenge 1 | [Main](https://github.com/rachelklee/csa-datastructures/blob/main/src/Main.java), [Menu](https://github.com/rachelklee/csa-datastructures/blob/main/src/Menu.java) 
+| Challenge 1 | [TT0.Main](https://github.com/rachelklee/csa-datastructures/blob/main/src/Main.java), [TT0.Menu](https://github.com/rachelklee/csa-datastructures/blob/main/src/Menu.java) 
 | Challenge 2 | [Int By Reference](https://github.com/rachelklee/csa-datastructures/blob/main/src/IntByReference.java) |
-| Challenge 3 | [Matrix](https://github.com/rachelklee/csa-datastructures/blob/main/src/Matrix.java) |
+| Challenge 3 | [TT0.Matrix](https://github.com/rachelklee/csa-datastructures/blob/main/src/Matrix.java) |
