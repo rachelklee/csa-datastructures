@@ -34,3 +34,35 @@ Challenge 3:
 - Build a queue: load it up, print it (standard order), push into the stack (reverse order)
      - [Example](https://github.com/nighthawkcoders/nighthawk_csa/blob/master/src/main/java/com/nighthawk/csa/utility/LinkedLists/Stack.java)
 - null --> done with loop
+
+
+## Tech Talk Week 2
+- Start with calc class, give it a string (mostly mathematical expressions)
+- Create an object, use a toString to print output
+- Mathmatical expression into tokens (numbers, operators)
+- Turn tokens into reverse polish notation (??)
+- write rpmtoresult function
+- Things to use
+     - Use split with multiple operators (use hashmap to look them up)
+     - Separators are spaces, parenthesis
+     - walk thorugh with debugger to understand how data is constructed
+- Process RPN with stack
+     - Off RPN list
+          - if number: push token
+          - if op: pop 2, eval, push result
+     - pop result 
+        
+1. Term tokenizer (separate string using separators and operators using loops)
+2. Reverse polish notation (shuffle around and pop)
+- Tokens 1+2*3
+- RPN: 123*+
+- Tokens: 1*2+3
+- RPN: 12*3+
+3. Calculate result (for loop on the list)
+- If token is number push to stack
+- else pop two entries and calculate 
+Challenge:
+- Build n power of operator (need to keep track of second operator)
+- EC
+     - assign variable (a=2; a+1)
+     - build algorithm like SQRT(), look at shunting yard algorithm
