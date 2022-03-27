@@ -29,9 +29,9 @@ public class Calculator {
 
     private final Map<String, Integer> OPERATORS = new HashMap<>();
     {
-        OPERATORS.put("#", 3); //pyth
-        OPERATORS.put("?", 3); // square
-        OPERATORS.put("^", 3); // power
+        OPERATORS.put("?", 3); //pythagorean theorem
+        OPERATORS.put("v", 3); // square root
+        OPERATORS.put("^", 3); // n power p
         OPERATORS.put("*", 3);
         OPERATORS.put("/", 3);
         OPERATORS.put("%", 3);
@@ -177,8 +177,8 @@ public class Calculator {
                 case "/":
                 case "%":
                 case "^": // power
-                case "?": // sqrt
-                case "#": // pythagorean theorem
+                case "v": // sqrt
+                case "?": // pythagorean theorem
 
                     while (tokenStack.peek() != null && isOperator((String) tokenStack.peek()))
                     {
@@ -243,10 +243,10 @@ public class Calculator {
                     case "^": //this is for power
                         result = Math.pow(operand0, operand1);
                         break;
-                    case "?": //this is for sqrt
+                    case "v": //this is for sqrt
                         result = Math.sqrt(operand0);
                         break;
-                    case "#": //this is for pythagorean theorem
+                    case "?": //this is for pythagorean theorem
                         result = Math.sqrt(Math.pow(operand0, 2) + Math.pow(operand1, 2));
                         break;
                     default:
@@ -273,7 +273,7 @@ public class Calculator {
     public static void main(String[] args) {
 
         Calculator simpleMath = new Calculator("100 + 200  * 3");
-        System.out.println("Simple Math\n" + simpleMath);
+        System.out.println("SIMPLE (BASIC)\n" + simpleMath);
 
         // what is simpleMath? simpleMath is an object of the Calculator class
         // you can do scanner, but that's a seperate option. we want it so that we can calculate testing
@@ -281,7 +281,7 @@ public class Calculator {
         System.out.println();
 
         Calculator parenthesisMath = new Calculator("(100 + 200)  * 3"); // The stuff in the parenthesis is a token
-        System.out.println("Parenthesis Math\n" + parenthesisMath);
+        System.out.println("PARENTHESIS\n" + parenthesisMath);
 
         //
 
@@ -289,55 +289,55 @@ public class Calculator {
         System.out.println();
 
         Calculator fractionMath = new Calculator("100.2 - 99.3");
-        System.out.println("Fraction Math\n" + fractionMath);
+        System.out.println("FRACTION\n" + fractionMath);
 
         System.out.println();
 
         Calculator moduloMath = new Calculator("300 % 200");
-        System.out.println("Modulo Math\n" + moduloMath);
+        System.out.println("MODULO\n" + moduloMath);
 
         System.out.println();
 
         Calculator divisionMath = new Calculator("300/200");
-        System.out.println("Division Math\n" + divisionMath);
+        System.out.println("DIVISION\n" + divisionMath);
 
         System.out.println();
 
         Calculator multiplicationMath = new Calculator("300 * 200");
-        System.out.println("Multiplication Math\n" + multiplicationMath);
+        System.out.println("MULTIPLICATION\n" + multiplicationMath);
 
         System.out.println();
 
         Calculator allMath = new Calculator("200 % 300 + 5 + 300 / 200 + 1 * 100");
-        System.out.println("All Math\n" + allMath);
+        System.out.println("EXPRESSION 1\n" + allMath);
 
         System.out.println();
 
         Calculator allMath2 = new Calculator("200 % (300 + 5 + 300) / 200 + 1 * 100");
-        System.out.println("All Math2\n" + allMath2);
+        System.out.println("EXPRESSION 2\n" + allMath2);
 
         System.out.println();
 
         Calculator allMath3 = new Calculator("200%(300+5+300)/200+1*100");
-        System.out.println("All Math3\n" + allMath3);
+        System.out.println("EXPRESSION 3\n" + allMath3);
 
         // add the same, but for power
         System.out.println();
 
-        Calculator squareMath = new Calculator("3 ^ 2");
-        System.out.println("squareMath\n" + squareMath);
+        Calculator powerMath = new Calculator("3 ^ 2");
+        System.out.println("POWER\n" + powerMath);
 
         // add the same, but for square root
         System.out.println();
 
-        Calculator squarerootMath = new Calculator("9 ? 0");
-        System.out.println("squarerootMath\n" + squarerootMath);
+        Calculator sqrtMath = new Calculator("9 v 0");
+        System.out.println("SQUARE ROOT\n" + sqrtMath);
 
         // add the same, but for pythagorean
         System.out.println();
 
-        Calculator pythMath = new Calculator("3 # 4");
-        System.out.println("pythMath\n" + pythMath);
+        Calculator ptMath = new Calculator("3 ? 4");
+        System.out.println("PYTHAGOREAN THEOREM\n" + ptMath);
 
     }
 }
