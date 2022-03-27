@@ -1,15 +1,16 @@
 # csa-datastructures
 
-# Commits: https://github.com/rachelklee/csa-datastructures/commits/main
+### [Commits](https://github.com/rachelklee/csa-datastructures/commits/main)
+### [Profile](https://github.com/rachelklee)
+### [Team Repository](https://github.com/adhithin/lab-kit)
 
 ## Week 0 Individual
 
-[Ticket](https://github.com/rachelklee/csa-datastructures/issues/1)
+* [Page](https://rachelklee.github.io/csa-datastructures/week0)
+* [Ticket](https://github.com/rachelklee/csa-datastructures/issues/1)
 
-### Challenges
+## Week 1 Individual
 
-| Challenge | Link |
-| -- | -- |
-| Challenge 1 | [TT0.Main](https://github.com/rachelklee/csa-datastructures/blob/main/src/Main.java), [TT0.Menu](https://github.com/rachelklee/csa-datastructures/blob/main/src/Menu.java) 
-| Challenge 2 | [Int By Reference](https://github.com/rachelklee/csa-datastructures/blob/main/src/IntByReference.java) |
-| Challenge 3 | [TT0.Matrix](https://github.com/rachelklee/csa-datastructures/blob/main/src/Matrix.java) |
+* [Page](https://rachelklee.github.io/csa-datastructures/week1)
+* [Ticket](https://github.com/rachelklee/csa-datastructures/issues/2)
+
