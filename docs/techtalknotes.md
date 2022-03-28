@@ -66,3 +66,17 @@ Challenge:
 - EC
      - assign variable (a=2; a+1)
      - build algorithm like SQRT(), look at shunting yard algorithm
+
+## Tech Talk Week 3
+
+- Challenge
+     - Bubble sort, merge sort, insertion sort
+     - 5000 pieces of data
+     - Analysis to figure out which is most efficient
+     - run each sort 12 times on 5000 elements or more, make sure each set of data is set up the same
+     - consider time, comparisons, swaps
+     - Bonus
+          - Build Queue data structure with sort built in as a method
+          - Insertion sort inside LinkedList nodes: [hint](https://github.com/nighthawkcoders/nighthawk_csa/blob/master/src/main/java/com/nighthawk/csa/utility/LinkedLists/CircleQueue.java#L168-L209)
+- Use inheritance/polymorphism to do own sort algorithm
+- stack overflow :)
