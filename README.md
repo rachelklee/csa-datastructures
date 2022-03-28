@@ -14,3 +14,7 @@
 * [Page](https://rachelklee.github.io/csa-datastructures/week1)
 * [Ticket](https://github.com/rachelklee/csa-datastructures/issues/2)
 
+## Week 2 Individual
+
+* [Page](https://rachelklee.github.io/csa-datastructures/week2)
+* [Ticket](https://github.com/rachelklee/csa-datastructures/issues/3)
