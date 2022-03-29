@@ -1,6 +1,6 @@
 <h2 align="center"> <a href="https://rachelklee.github.io/csa-datastructures/">Home</a> | <a href="https://rachelklee.github.io/csa-datastructures/techtalknotes">Tech Talk Notes</a> | <a href="https://rachelklee.github.io/csa-datastructures/testprep">Test Prep Notes</a></h2>
 
-# Tech Talk Notes
+# Tech Talk Notes and Key Learnings
 
 ## Tech Talk Week 0
 - data structure is a method of organizing data
