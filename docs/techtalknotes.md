@@ -70,7 +70,7 @@ Challenge:
 ## Tech Talk Week 3
 
 - Challenge
-     - Bubble sort, merge sort, insertion sort
+     - Bubble sort, merge sort, insertion sort, selection sort
      - 5000 pieces of data
      - Analysis to figure out which is most efficient
      - run each sort 12 times on 5000 elements or more, make sure each set of data is set up the same
