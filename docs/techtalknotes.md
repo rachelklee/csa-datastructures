@@ -1,6 +1,6 @@
 <h2 align="center"> <a href="https://rachelklee.github.io/csa-datastructures/">Home</a> | <a href="https://rachelklee.github.io/csa-datastructures/techtalknotes">Tech Talk Notes</a> | <a href="https://rachelklee.github.io/csa-datastructures/testprep">Test Prep Notes</a></h2>
 
-# Tech Talk Notes
+# Tech Talk Notes and Key Learnings
 
 ## Tech Talk Week 0
 - data structure is a method of organizing data
@@ -70,7 +70,7 @@ Challenge:
 ## Tech Talk Week 3
 
 - Challenge
-     - Bubble sort, merge sort, insertion sort
+     - Bubble sort, merge sort, insertion sort, selection sort
      - 5000 pieces of data
      - Analysis to figure out which is most efficient
      - run each sort 12 times on 5000 elements or more, make sure each set of data is set up the same
