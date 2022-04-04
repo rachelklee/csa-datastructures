@@ -93,9 +93,9 @@ public class Sorts {
 
 
         //Sort LinkedList
-        System.out.println("\n ------LinkedList------");
-        Sorts ll = new Sorts(12);
-        
+        //System.out.println("\n ------LinkedList------");
+        //Sorts ll = new Sorts(12);
+
     }
 
 }
