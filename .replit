@@ -1,0 +1,2 @@
+language = "java"
+run = "javac src/mainMenu.java; java src/Menu; rm src/*.class"
