@@ -6,7 +6,7 @@
 
 ### Challenge 1
 Main.java
-```
+```java
 public class Main {
     //Create a new menu with the input class being this class
     public static Menu newMenu = new Menu(Main.class);
@@ -46,7 +46,7 @@ public class Main {
 ```
 
 Menu.java
-```
+```java
 public final class Menu {
     //Class needed for invoking method
     private Class menuClass;
@@ -210,7 +210,7 @@ public final class Menu {
 ### Challenge 2
 
 IntByReference.java
-``` 
+```java
 public class IntByReference {
     public int value;
 
@@ -254,7 +254,7 @@ public class IntByReference {
 
 ### Challenge 3
 Matrix
-``` 
+```java
 public class Matrix {
     private final int[][] matrix;
     String str;
