@@ -7,7 +7,7 @@
 ### Sorts
 
 #### Parent Class - Sorts
-``` 
+```java
 public Sorts(int size) {
         Instant start = Instant.now();  // time capture -- start
         // build an array
@@ -82,7 +82,7 @@ public Sorts(int size) {
 ```
 
 #### Bubble Sort
-```
+```java
 public class bubble extends Sorts {
     public bubble(int size) {
         super(size);
@@ -113,7 +113,7 @@ public class bubble extends Sorts {
 ```
 
 #### Insertion Sort
-```
+```java
 public class insertion extends Sorts {
     public insertion(int size) {
         super(size);
@@ -145,7 +145,7 @@ public class insertion extends Sorts {
 ```
 
 #### Merge Sort
-```
+```java
 public class merge extends Sorts{
     public merge(int size) {
         super(size);
@@ -223,7 +223,7 @@ public class merge extends Sorts{
 ```
 
 #### Selection Sort
-```
+```java
 public class selection extends Sorts {
         public selection(int size) {
             super(size);
