@@ -5,7 +5,7 @@
 ## Code Snippets
 
 ### LinkedList
-```
+```java
 public class LinkedList<T>
 {
     private T data;
@@ -103,7 +103,7 @@ public class LinkedList<T>
 
 ### Challenge 1
 Queue1.java
-```
+```java
 public class Queue1<T> implements Iterable<T> {
     LinkedList<T> head, tail;
 
@@ -272,7 +272,7 @@ class QueueTester {
 
 ### Challenge 2
 Queue2.java
-```
+```java
 public class Queue2<T> implements Iterable<T> {
     LinkedList<T> head, tail;
 
@@ -443,7 +443,7 @@ class QueueTester2 {
 
 ### Challenge 3
 Queue3.java
-```
+```java
 public class Queue3<T> implements Iterable<T> {
     LinkedList<T> head, tail;
 
