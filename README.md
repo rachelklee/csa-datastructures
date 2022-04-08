@@ -1,7 +1,7 @@
 # csa-datastructures
 
-### [Commits](https://github.com/rachelklee/csa-datastructures/commits/main)
-### [Profile](https://github.com/rachelklee)
+### [Commits](https://github.com/rachelklee/csa-datastructures/commits/main) + [Insight Graphs](https://github.com/rachelklee/csa-datastructures/graphs/contributors)
+### Profile: [@rachelklee](https://github.com/rachelklee)
 ### [Team Repository](https://github.com/adhithin/lab-kit)
 
 ## Week 0 Individual
