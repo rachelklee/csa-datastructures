@@ -7,7 +7,7 @@
 ### Sorts
 
 #### Parent Class - Sorts
-```
+``` 
 public Sorts(int size) {
         Instant start = Instant.now();  // time capture -- start
         // build an array
@@ -261,3 +261,29 @@ public class selection extends Sorts {
 | Sort (Child Class) | [Selection](https://github.com/rachelklee/csa-datastructures/blob/main/src/TT3/Sort/selection.java) |
 
 
+## Sorts Explanation & Analysis
+
+### Big O Complexity
+**Bubble Sort:**
+
+Best case: O(n)
+
+Worst case: O(n^2)
+
+**Insertion Sort:**
+
+Best case: O(n)
+
+Worst case: O(n^2)
+
+**Selection Sort**
+
+Best case: O(n^2)
+
+Worst case: O(n^2)
+
+**Merge Sort**
+
+Best case: O(nlogn)
+
+Worst case: O(nlogn)
