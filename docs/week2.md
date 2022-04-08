@@ -7,7 +7,7 @@
 ### Calculator
 
 #### Set up variables, operators, separators
-```
+```java
 public class Calculator {
 
     private final String expression;
@@ -46,7 +46,7 @@ public class Calculator {
 ```
 
 #### Tokenizer (split up expression, set to reverse polish notation)
-```
+```java
     public Calculator(String expression) {
 
         this.expression = expression;
@@ -197,7 +197,7 @@ public class Calculator {
 ```
 
 #### Calculate Result
-```
+```java
     private void rpnToResult()
     {
 
