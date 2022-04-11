@@ -1,4 +1,4 @@
-package TT0;
+package src.TT0;
 
 public class Main {
     //Create a new menu with the input class being this class
