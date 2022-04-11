@@ -1,4 +1,4 @@
-package TT2;
+package src.TT2;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,7 +7,7 @@ import java.util.Map;
 import java.lang.Math;
 //import java.util.Stack;
 
-import TT2.LinkedLists.Stack;
+import src.TT2.LinkedLists.Stack;
 
 
 // you can import the math for square root
