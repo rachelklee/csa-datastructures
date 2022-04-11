@@ -264,26 +264,30 @@ public class selection extends Sorts {
 ## Sorts Explanation & Analysis
 
 ### Big O Complexity
-**Bubble Sort:**
 
-Best case: O(n)
+![image](https://user-images.githubusercontent.com/77082379/161582109-0da3f333-6389-4f22-a25e-121d1072c8be.png)
 
-Worst case: O(n^2)
+- Tells you which sort is fastest
+- The sorts we used are Bubble, Insertion, Selection, Merge
+     * Bubble Sort: Best case: O(n) Worst case: O(n^2)
 
-**Insertion Sort:**
+     * Insertion Sort: Best case: O(n) Worst case: O(n^2)
 
-Best case: O(n)
+     * Selection Sort Best case: O(n^2) Worst case: O(n^2)
 
-Worst case: O(n^2)
+     * Merge Sort Best case: O(nlogn) Worst case: O(nlogn)
 
-**Selection Sort**
+- Actual times from runtime 
 
-Best case: O(n^2)
+![image](https://user-images.githubusercontent.com/77082379/161582864-62e6b789-da49-4e79-b65b-cda4e0ee7060.png)
 
-Worst case: O(n^2)
+# Final Judgement
+- Merge sort is most efficient
+     - least comparisons
+     - fastest
+     - simple Big O complexity
 
-**Merge Sort**
 
-Best case: O(nlogn)
+### Graph
+![image](https://user-images.githubusercontent.com/77082379/162661375-5b1f8098-8dd1-43f8-9f4b-c46baaa930ae.png)
 
-Worst case: O(nlogn)
