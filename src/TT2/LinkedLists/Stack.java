@@ -1,4 +1,4 @@
-package TT2.LinkedLists;
+package src.TT2.LinkedLists;
 
 import java.util.*;
 
@@ -10,7 +10,7 @@ import java.util.*;
  */
 public class Stack
 {
-    private LinkedList lifo;  // last in first out Object of stack
+    private LinkedList2 lifo;  // last in first out Object of stack
 
     /**
      *  Constructor for the SinglyLinkedList object
@@ -44,7 +44,7 @@ public class Stack
         // note the order that things happen:
         // the new object becomes current and gets a value
         // current lifo is parameter, it is assigned as previous node in lifo
-        lifo = new LinkedList(value, lifo);
+        lifo = new LinkedList2(value, lifo);
     }
 
     /**
@@ -73,7 +73,7 @@ public class Stack
     {
         StringBuilder stackToString = new StringBuilder("[");
 
-        LinkedList node = lifo;  				// start from the back
+        LinkedList2 node = lifo;  				// start from the back
         while (node != null)
         {
             stackToString.append(node.getObject()); 	// append the database to output string
