@@ -1,4 +1,4 @@
-package TT1;
+package src.TT1;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -6,6 +6,11 @@ import java.util.List;
 
 public class Queue3<T> implements Iterable<T> {
     LinkedList<T> head, tail;
+
+    public static void main()
+    {
+        QueueTester3.main(null);
+    }
 
     /**
      *  Add a new object at the end of the Queue,
@@ -138,6 +143,8 @@ class QueueManager3<T> {
             System.out.print(data + " ");
         System.out.println();
     }
+
+  
 }
 
 /**
