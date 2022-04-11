@@ -1,4 +1,4 @@
-package TT1;
+package src.TT1;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -6,6 +6,12 @@ import java.util.Iterator;
 
 public class Queue2<T> implements Iterable<T> {
     LinkedList<T> head, tail;
+
+    public static void main()
+    {
+        QueueTester2.main(null);
+
+    }
 
     /**
      *  Add a new object at the end of the Queue,
@@ -148,6 +154,8 @@ class QueueManager2<T> {
     public Queue2<T> getQueue(){
         return queue;
     }
+
+  
 }
 
 /**
@@ -161,7 +169,7 @@ class QueueTester2 {
         Object[] words = new String[] { "1", "3", "5", "8"};
         QueueManager2 qWords = new QueueManager2("Words", words );
         qWords.printQueue();
-        Object[] words2 = new String[] { "2", "4", "6", "7"};
+        Object[] words2 = new String[] { "2", "4", "6", "9"};
         QueueManager2 qWords2 = new QueueManager2("Words", words2 );
         qWords2.printQueue();
 
