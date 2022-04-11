@@ -1,4 +1,4 @@
-package TT0;
+package src.TT0;
 
 public class IntByReference {
     public int value;
