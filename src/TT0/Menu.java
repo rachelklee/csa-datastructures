@@ -1,4 +1,4 @@
-package TT0;
+package src.TT0;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
