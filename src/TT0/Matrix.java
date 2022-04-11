@@ -1,4 +1,4 @@
-package TT0;
+package src.TT0;
 
 public class Matrix {
     private final int[][] matrix;
@@ -69,12 +69,30 @@ public class Matrix {
     }
 
     public void toHex() {
-
+        String hexOut = "";
+        for (int i = (matrix.length - 1); i >= 0; --i) { // comparing for the row number, starting with last row
+            for(int j = (matrix[i].length - 1); j >= 0; --j) { // starts at the last element
+                if (matrix[i][j] == -1) { // if the value in the matrix = -1
+                    hexOut = " "; // replace the value in the matrix with a space
+                }
+                else {
+                    hexOut += Integer.toHexString(matrix[i][j]); // if not -1, use original matrix value, changing values to Hex String
+                }
+                if (j != 0) { // check when loop reaches beginning of each row
+                    hexOut += " "; // if not beginning of row, adds a space between ints
+                }
+                else {
+                    hexOut += "\n"; // reaches beginning of row, jumps to next line
+                }
+            }
+        }
+        System.out.println(hexOut);
     }
 
     public String toString() {
         getString();
         reverseString();
+        toHex();
         return str;
     }
 
