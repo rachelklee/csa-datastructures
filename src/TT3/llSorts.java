@@ -1,4 +1,4 @@
-package TT3;
+package src.TT3;
 
 public class llSorts {
     node head;
