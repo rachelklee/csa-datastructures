@@ -1,6 +1,6 @@
-package TT3.Sort;
+package src.TT3.Sort;
 
-import TT3.Sorts;
+import src.TT3.Sorts;
 
 import java.lang.reflect.Array;
 import java.time.Duration;
