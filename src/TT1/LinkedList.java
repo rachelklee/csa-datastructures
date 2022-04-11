@@ -1,4 +1,4 @@
-package TT1;
+package src.TT1;
 
 public class LinkedList<T>
 {
