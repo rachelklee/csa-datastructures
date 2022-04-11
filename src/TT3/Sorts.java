@@ -1,14 +1,14 @@
-package TT3;
+package src.TT3;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 
-import static TT3.Sort.bubble.bubbleSort;
-import static TT3.Sort.insertion.insertionSort;
-import static TT3.Sort.merge.mergeSort;
-import static TT3.Sort.selection.selectionSort;
+import static src.TT3.Sort.bubble.bubbleSort;
+import static src.TT3.Sort.insertion.insertionSort;
+import static src.TT3.Sort.merge.mergeSort;
+import static src.TT3.Sort.selection.selectionSort;
 
 
 public class Sorts {
