@@ -1,10 +1,10 @@
-package TT2.LinkedLists;
+package src.TT2.LinkedLists;
 
-public class LinkedList
+public class LinkedList2
 {
     private Object opaqueObject;
-    private LinkedList prevNode;
-    private LinkedList nextNode;
+    private LinkedList2 prevNode;
+    private LinkedList2 nextNode;
 
     /**
      *  Constructs a new element with object objValue,
@@ -12,7 +12,7 @@ public class LinkedList
      *
      * @param  opaqueObject  Address of Object
      */
-    public LinkedList(Object opaqueObject, LinkedList node)
+    public LinkedList2(Object opaqueObject, LinkedList2 node)
     {
         this.setObject(opaqueObject);
         this.setPrevNode(node);
@@ -24,7 +24,7 @@ public class LinkedList
      *
      * @param  node  object to clone
      */
-    public LinkedList(LinkedList node)
+    public LinkedList2(LinkedList2 node)
     {
         opaqueObject = node.opaqueObject;
         prevNode = node.prevNode;
@@ -46,7 +46,7 @@ public class LinkedList
      *
      * @param node     A LinkedList object that is prevNode to current Object
      */
-    public void setPrevNode(LinkedList node)
+    public void setPrevNode(LinkedList2 node)
     {
         this.prevNode = node;
     }
@@ -56,7 +56,7 @@ public class LinkedList
      *
      * @param node     A LinkedList object that is nextNode to current Object
      */
-    public void setNextNode(LinkedList node)
+    public void setNextNode(LinkedList2 node)
     {
         this.nextNode = node;
     }
@@ -76,7 +76,7 @@ public class LinkedList
      *
      * @return    The pointer is to the previous object in the list
      */
-    public LinkedList getPrevious()
+    public LinkedList2 getPrevious()
     {
         return prevNode;
     }
@@ -86,7 +86,7 @@ public class LinkedList
      *
      * @return    The pointer is to the next object in the list
      */
-    public LinkedList getNext()
+    public LinkedList2 getNext()
     {
         return nextNode;
     }
