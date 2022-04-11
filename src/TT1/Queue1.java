@@ -1,9 +1,14 @@
-package TT1;
+package src.TT1;
 
 import java.util.Iterator;
 
 public class Queue1<T> implements Iterable<T> {
     LinkedList<T> head, tail;
+
+    public static void main()
+    {
+        QueueTester.main(null);
+    }
 
     /**
      *  Add a new object at the end of the Queue,
@@ -29,6 +34,7 @@ public class Queue1<T> implements Iterable<T> {
         System.out.println();
         System.out.println("Count: " + count);
         System.out.println("Enqueueded: " + data);
+;
     }
     public void delete(){
         this.head = this.head.getNext();
@@ -42,6 +48,7 @@ public class Queue1<T> implements Iterable<T> {
         System.out.println("Count: " + count);
         System.out.println("Dequeued: " + this.head.getData());
         this.tail = tail;
+        
     }
 
     /**
@@ -97,6 +104,8 @@ class QueueIterator<T> implements Iterator<T> {
         current = current.getNext();
         return data;
     }
+
+  
 }
 
 /**
@@ -150,6 +159,8 @@ class QueueManager<T> {
             System.out.print(data + " ");
         System.out.println();
     }
+
+  
 }
 
 /**
@@ -162,6 +173,7 @@ class QueueTester {
         // Create iterable Queue of Words
         Object[] words = new String[] { "seven", "slimy", "snakes", "sallying", "slowly", "slithered", "southward"};
         QueueManager qWords = new QueueManager("Words", words );
+        qWords.delete();
         qWords.delete();
         qWords.delete();
     }
