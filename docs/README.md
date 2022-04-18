@@ -26,3 +26,7 @@
 
 * [Page](https://rachelklee.github.io/csa-datastructures/week3)
 * [Ticket](https://github.com/rachelklee/csa-datastructures/issues/4)
+
+## Week 4-5 Individual (AP REVIEW)
+* [Page - Wk 4](https://rachelklee.github.io/csa-datastructures/week4)
+* [Page - Wk 5](https://rachelklee.github.io/csa-datastructures/week5)
