@@ -3,10 +3,15 @@
 # Week 5
 
 # Goals
-* Review Array, ArrayList, 2D Array
-* In Class full practice exam
-* At least 1 extra FRQ
-* Barron's Book practice exam
+| Goal | Detail | Complete |
+|---|---|---|
+| Review Array, ArrayList, 2D Array | Review TT notes from Tri 1, Watch CB videos, Do practice quiz (CB) | |
+| In Class full practice exam | Full MC and FRQ Timed, completed in class | |
+| At least 1 extra FRQ | Full old FRQ from CB, Timed, outside of class | |
+| Barron's Book practice exam | Full Practice Exam 1, Timed, outside of class | |
+
+# Additional Notes
+* Work on timing for exams
 
 ## Github
 
