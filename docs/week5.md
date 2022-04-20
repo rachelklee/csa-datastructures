@@ -12,6 +12,7 @@
 
 # Additional Notes
 * Work on timing for exams
+     * Be conscious of how much time is being used for each question
 
 ## Github
 
