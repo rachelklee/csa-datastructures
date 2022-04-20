@@ -3,8 +3,9 @@
 # Week 5
 
 # Goals
+
 | Goal | Detail | Complete |
-|---|---|---|
+| --- | --- | --- |
 | Review Array, ArrayList, 2D Array | Review TT notes from Tri 1, Watch CB videos, Do practice quiz (CB) | |
 | In Class full practice exam | Full MC and FRQ Timed, completed in class | |
 | At least 1 extra FRQ | Full old FRQ from CB, Timed, outside of class | |
