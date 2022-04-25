@@ -17,6 +17,7 @@
 
 # Corrections
 ## MC: Score 25/39 (Initial), 32/39 (Final)
+
 | Number | Original Choice | Correct Choice | Reasoning |
 | --- | --- | --- | --- |
 | 6 | B | A | containsArt ("rattrap", "similar", "today") This is because the "art" is found as a combination of "similar" and "today". That is not as intended based upon the description of what the method should do. |
