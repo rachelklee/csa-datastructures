@@ -77,4 +77,5 @@ public boolean contains(int num){
 
 | Artifact | Link |
 | -- | -- |
+| Ticket | [Issue](https://github.com/rachelklee/csa-datastructures/issues/6) |
 
