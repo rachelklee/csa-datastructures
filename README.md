@@ -28,3 +28,7 @@
 ## Week 4 Individual
 
 * [Ticket](https://github.com/rachelklee/csa-datastructures/issues/5)
+
+## Week 5 Test Prep
+
+* [Ticket](https://github.com/rachelklee/csa-datastructures/issues/6)
