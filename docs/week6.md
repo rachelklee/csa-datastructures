@@ -40,7 +40,7 @@
 
 ## FRQ: Live Score
 
-### REPL: 
+### [REPL](https://replit.com/@rachelklee/2020practicefrq#hailstone.java)
 
 ### Paper
 
