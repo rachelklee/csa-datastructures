@@ -2,6 +2,13 @@
 
 # N@TM Final
 
+## Reflection
+I worked mainly on deployment. While learning about the deployment process, I faced a lot of issues with the java not building properly which took hours to fix. In the end, I was able to learn a lot about linux and became more confident navigating the operating system. 
+
+Right now, I am working on trying to use docker to deploy the website. Although I don't understand that much of the docker (I just started learning it), I feel like it is very promising for improving deployment processes so I will try to continue to work on it through the rest of the year.
+
+Before I was working on deployment, I worked a little on frontend. Designed the home page with the descriptions and carousel of pictures of Mr. Swanson. I also initially worked on fixing mismatches on the database before Adrita took over the rest of database operations.
+
 ## Requirements
 5 points PBL Final Seed :
 - [x] Presence and involvement at the N@tM on June 1st from 6:00PM to 7:30PM [Album](https://photos.app.goo.gl/EPqramKgaomJqEt57)
